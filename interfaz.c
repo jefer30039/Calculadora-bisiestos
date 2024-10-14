@@ -34,7 +34,7 @@ void mostrar_resultado(GtkWidget *widget, gpointer data)
     //ventana emergente para mostrar el resultado
     windowResult = gtk_window_new(GTK_WINDOW_TOPLEVEL);
     gtk_window_set_title(GTK_WINDOW(windowResult), "Resultado");
-    gtk_window_set_default_size(GTK_WINDOW(windowResult), 200, 100);
+    gtk_window_set_default_size(GTK_WINDOW(windowResult), 250, 100);
     gtk_container_set_border_width(GTK_CONTAINER(windowResult), 10);
 
     gtk_container_add(GTK_CONTAINER(windowResult), result_label);
