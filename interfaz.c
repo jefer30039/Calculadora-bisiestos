@@ -5,13 +5,17 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+//Funcion del asm que recibe un año (int) y devuelve un booleano
+
+extern bool es_bisiesto(int year);
+
 // Funcion que recibe el año ingresado y devuelve un string con el resultado
 char* crear_label (gpointer data)
 {
     const char *year = gtk_entry_get_text(GTK_ENTRY(data));
     int year_int = atoi(year);
 
-    if (year_int % 4 == 0 && (year_int % 100 != 0 || year_int % 400 == 0))
+    if (es_bisiesto(year_int))
     {
         return "El año es bisiesto";
     }
