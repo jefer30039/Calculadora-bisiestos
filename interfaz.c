@@ -38,6 +38,8 @@ void mostrar_resultado(GtkWidget *widget, gpointer data)
 
     gtk_widget_show_all(windowResult);
 
+    g_object_unref(windowResult);
+
 }
 
 int main (int argc, char *argv[])
@@ -90,6 +92,8 @@ int main (int argc, char *argv[])
     gtk_widget_show_all(window);
 
     gtk_main();
+
+    g_object_unref(window);
 
     return 0;
 }
