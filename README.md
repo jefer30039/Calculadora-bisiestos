@@ -4,5 +4,5 @@ Calculadora de años bisiestos con interfaz gráfica, programada en NASM-x86 par
 
 ## Estudiantes:
 
-Jeferson Marín - C24549
-Santiago Vega Robles - C38351
+- Jeferson Marín - C24549
+- Santiago Vega Robles - C38351
