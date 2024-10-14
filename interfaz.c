@@ -1,8 +1,5 @@
 
 #include <gtk/gtk.h>
-#include <string.h>
-#include <stdlib.h>
-#include <stdio.h>
 #include <stdbool.h>
 
 //Funcion del asm que recibe un año (int) y devuelve un booleano
