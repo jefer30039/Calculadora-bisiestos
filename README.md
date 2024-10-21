@@ -17,3 +17,7 @@ Calculadora de años bisiestos con interfaz gráfica, programada en NASM-x86 par
 ## Diagrama de Flujo para la Calculadora
 
 ![](https://github.com/jefer30039/Calculadora-bisiestos/blob/main/Diagrama_Calc.png)
+
+## Diagrama de Flujo para la Interfaz
+
+![](https://github.com/jefer30039/Calculadora-bisiestos/blob/main/Diagrama_Interfaz.png)
